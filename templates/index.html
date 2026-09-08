@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>E-Commerce AI Assistant</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="chat-container">
+
+        <!-- HEADER -->
+        <div class="chat-header">
+
+            <div>
+                <h1>🛍️ E-Commerce AI Assistant</h1>
+
+                <p>
+                    Ask about products, recommendations, orders & reviews
+                </p>
+            </div>
+
+            <div class="status">
+                ● Online
+            </div>
+
+        </div>
+
+
+        <!-- CHAT AREA -->
+        <div id="chat-box" class="chat-box">
+
+            <!-- Welcome Message -->
+            <div class="message bot-message">
+
+                <div class="avatar">
+                    🤖
+                </div>
+
+                <div class="message-content">
+
+                    <div class="sender">
+                        AI Assistant
+                    </div>
+
+                    <div class="text">
+                        Hello! 👋<br><br>
+
+                        I'm your E-Commerce AI Assistant.
+                        You can ask me about:
+                        <br><br>
+
+                        📦 Orders & delivery<br>
+                        💻 Products<br>
+                        ⭐ Recommendations<br>
+                        📝 Customer reviews
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- TYPING INDICATOR -->
+        <div id="typing" class="typing hidden">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            AI is thinking...
+
+        </div>
+
+
+        <!-- INPUT AREA -->
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Ask me something..."
+                autocomplete="off"
+            >
+
+            <button id="send-button">
+                Send ➤
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>

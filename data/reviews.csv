@@ -1,0 +1,1001 @@
+ReviewID,ProductID,ProductName,Review,Rating
+1,1,Lenovo Laptop 1,Not worth the price,3
+2,1,Lenovo Laptop 1,Works perfectly,5
+3,1,Lenovo Laptop 1,Very good quality,4
+4,1,Lenovo Laptop 1,Excellent product,5
+5,1,Lenovo Laptop 1,Very good quality,5
+6,1,Lenovo Laptop 1,Average quality,3
+7,1,Lenovo Laptop 1,Worth the money,5
+8,1,Lenovo Laptop 1,Very good quality,4
+9,1,Lenovo Laptop 1,Highly recommended,5
+10,1,Lenovo Laptop 1,Poor battery,2
+11,2,Lenovo Laptop 2,Highly recommended,5
+12,2,Lenovo Laptop 2,Highly recommended,5
+13,2,Lenovo Laptop 2,Works perfectly,4
+14,2,Lenovo Laptop 2,Disappointing purchase,3
+15,2,Lenovo Laptop 2,Very good quality,5
+16,2,Lenovo Laptop 2,Not worth the price,3
+17,2,Lenovo Laptop 2,Highly recommended,5
+18,2,Lenovo Laptop 2,Excellent product,4
+19,2,Lenovo Laptop 2,Excellent product,4
+20,2,Lenovo Laptop 2,Works perfectly,5
+21,3,Lenovo Laptop 3,Worth the money,5
+22,3,Lenovo Laptop 3,Highly recommended,4
+23,3,Lenovo Laptop 3,Works perfectly,5
+24,3,Lenovo Laptop 3,Very good quality,4
+25,3,Lenovo Laptop 3,Works perfectly,4
+26,3,Lenovo Laptop 3,Highly recommended,4
+27,3,Lenovo Laptop 3,Works perfectly,5
+28,3,Lenovo Laptop 3,Works perfectly,4
+29,3,Lenovo Laptop 3,Stopped working soon,3
+30,3,Lenovo Laptop 3,Poor battery,3
+31,4,Lenovo Laptop 4,Excellent product,4
+32,4,Lenovo Laptop 4,Very good quality,5
+33,4,Lenovo Laptop 4,Works perfectly,4
+34,4,Lenovo Laptop 4,Average quality,2
+35,4,Lenovo Laptop 4,Worth the money,5
+36,4,Lenovo Laptop 4,Works perfectly,5
+37,4,Lenovo Laptop 4,Disappointing purchase,3
+38,4,Lenovo Laptop 4,Not worth the price,2
+39,4,Lenovo Laptop 4,Worth the money,4
+40,4,Lenovo Laptop 4,Excellent product,4
+41,5,Lenovo Laptop 5,Excellent product,4
+42,5,Lenovo Laptop 5,Worth the money,5
+43,5,Lenovo Laptop 5,Works perfectly,4
+44,5,Lenovo Laptop 5,Works perfectly,5
+45,5,Lenovo Laptop 5,Works perfectly,5
+46,5,Lenovo Laptop 5,Disappointing purchase,2
+47,5,Lenovo Laptop 5,Stopped working soon,3
+48,5,Lenovo Laptop 5,Works perfectly,5
+49,5,Lenovo Laptop 5,Very good quality,4
+50,5,Lenovo Laptop 5,Highly recommended,5
+51,6,HP Laptop 1,Works perfectly,5
+52,6,HP Laptop 1,Very good quality,5
+53,6,HP Laptop 1,Highly recommended,4
+54,6,HP Laptop 1,Worth the money,5
+55,6,HP Laptop 1,Not worth the price,1
+56,6,HP Laptop 1,Excellent product,5
+57,6,HP Laptop 1,Highly recommended,4
+58,6,HP Laptop 1,Worth the money,4
+59,6,HP Laptop 1,Not worth the price,1
+60,6,HP Laptop 1,Works perfectly,4
+61,7,HP Laptop 2,Average quality,1
+62,7,HP Laptop 2,Excellent product,5
+63,7,HP Laptop 2,Highly recommended,4
+64,7,HP Laptop 2,Excellent product,5
+65,7,HP Laptop 2,Works perfectly,5
+66,7,HP Laptop 2,Excellent product,5
+67,7,HP Laptop 2,Highly recommended,4
+68,7,HP Laptop 2,Disappointing purchase,2
+69,7,HP Laptop 2,Works perfectly,4
+70,7,HP Laptop 2,Stopped working soon,1
+71,8,HP Laptop 3,Works perfectly,4
+72,8,HP Laptop 3,Average quality,3
+73,8,HP Laptop 3,Very good quality,4
+74,8,HP Laptop 3,Highly recommended,4
+75,8,HP Laptop 3,Excellent product,5
+76,8,HP Laptop 3,Worth the money,4
+77,8,HP Laptop 3,Poor battery,2
+78,8,HP Laptop 3,Very good quality,4
+79,8,HP Laptop 3,Works perfectly,4
+80,8,HP Laptop 3,Excellent product,5
+81,9,HP Laptop 4,Highly recommended,4
+82,9,HP Laptop 4,Excellent product,4
+83,9,HP Laptop 4,Excellent product,5
+84,9,HP Laptop 4,Average quality,1
+85,9,HP Laptop 4,Very good quality,4
+86,9,HP Laptop 4,Very good quality,5
+87,9,HP Laptop 4,Average quality,1
+88,9,HP Laptop 4,Works perfectly,5
+89,9,HP Laptop 4,Excellent product,5
+90,9,HP Laptop 4,Very good quality,5
+91,10,HP Laptop 5,Very good quality,5
+92,10,HP Laptop 5,Very good quality,4
+93,10,HP Laptop 5,Very good quality,4
+94,10,HP Laptop 5,Worth the money,4
+95,10,HP Laptop 5,Excellent product,4
+96,10,HP Laptop 5,Very good quality,5
+97,10,HP Laptop 5,Average quality,2
+98,10,HP Laptop 5,Average quality,3
+99,10,HP Laptop 5,Very good quality,5
+100,10,HP Laptop 5,Works perfectly,4
+101,11,Dell Laptop 1,Works perfectly,4
+102,11,Dell Laptop 1,Stopped working soon,2
+103,11,Dell Laptop 1,Excellent product,5
+104,11,Dell Laptop 1,Worth the money,4
+105,11,Dell Laptop 1,Disappointing purchase,2
+106,11,Dell Laptop 1,Excellent product,5
+107,11,Dell Laptop 1,Works perfectly,5
+108,11,Dell Laptop 1,Worth the money,5
+109,11,Dell Laptop 1,Highly recommended,5
+110,11,Dell Laptop 1,Highly recommended,4
+111,12,Dell Laptop 2,Worth the money,5
+112,12,Dell Laptop 2,Works perfectly,5
+113,12,Dell Laptop 2,Worth the money,5
+114,12,Dell Laptop 2,Average quality,3
+115,12,Dell Laptop 2,Very good quality,4
+116,12,Dell Laptop 2,Poor battery,3
+117,12,Dell Laptop 2,Works perfectly,4
+118,12,Dell Laptop 2,Worth the money,5
+119,12,Dell Laptop 2,Works perfectly,4
+120,12,Dell Laptop 2,Highly recommended,4
+121,13,Dell Laptop 3,Disappointing purchase,3
+122,13,Dell Laptop 3,Excellent product,4
+123,13,Dell Laptop 3,Works perfectly,4
+124,13,Dell Laptop 3,Excellent product,5
+125,13,Dell Laptop 3,Not worth the price,2
+126,13,Dell Laptop 3,Worth the money,4
+127,13,Dell Laptop 3,Excellent product,4
+128,13,Dell Laptop 3,Not worth the price,2
+129,13,Dell Laptop 3,Average quality,1
+130,13,Dell Laptop 3,Disappointing purchase,1
+131,14,Dell Laptop 4,Very good quality,5
+132,14,Dell Laptop 4,Disappointing purchase,1
+133,14,Dell Laptop 4,Stopped working soon,2
+134,14,Dell Laptop 4,Not worth the price,2
+135,14,Dell Laptop 4,Very good quality,4
+136,14,Dell Laptop 4,Very good quality,4
+137,14,Dell Laptop 4,Worth the money,4
+138,14,Dell Laptop 4,Highly recommended,5
+139,14,Dell Laptop 4,Very good quality,5
+140,14,Dell Laptop 4,Works perfectly,5
+141,15,Dell Laptop 5,Stopped working soon,2
+142,15,Dell Laptop 5,Worth the money,5
+143,15,Dell Laptop 5,Very good quality,4
+144,15,Dell Laptop 5,Works perfectly,4
+145,15,Dell Laptop 5,Worth the money,4
+146,15,Dell Laptop 5,Worth the money,4
+147,15,Dell Laptop 5,Highly recommended,5
+148,15,Dell Laptop 5,Disappointing purchase,3
+149,15,Dell Laptop 5,Poor battery,1
+150,15,Dell Laptop 5,Works perfectly,4
+151,16,ASUS Laptop 1,Highly recommended,4
+152,16,ASUS Laptop 1,Highly recommended,4
+153,16,ASUS Laptop 1,Stopped working soon,3
+154,16,ASUS Laptop 1,Disappointing purchase,1
+155,16,ASUS Laptop 1,Highly recommended,5
+156,16,ASUS Laptop 1,Worth the money,4
+157,16,ASUS Laptop 1,Poor battery,1
+158,16,ASUS Laptop 1,Poor battery,3
+159,16,ASUS Laptop 1,Stopped working soon,1
+160,16,ASUS Laptop 1,Stopped working soon,3
+161,17,ASUS Laptop 2,Works perfectly,4
+162,17,ASUS Laptop 2,Works perfectly,4
+163,17,ASUS Laptop 2,Highly recommended,5
+164,17,ASUS Laptop 2,Highly recommended,5
+165,17,ASUS Laptop 2,Highly recommended,4
+166,17,ASUS Laptop 2,Stopped working soon,1
+167,17,ASUS Laptop 2,Worth the money,5
+168,17,ASUS Laptop 2,Poor battery,2
+169,17,ASUS Laptop 2,Very good quality,4
+170,17,ASUS Laptop 2,Average quality,1
+171,18,ASUS Laptop 3,Excellent product,5
+172,18,ASUS Laptop 3,Excellent product,5
+173,18,ASUS Laptop 3,Very good quality,5
+174,18,ASUS Laptop 3,Poor battery,3
+175,18,ASUS Laptop 3,Not worth the price,2
+176,18,ASUS Laptop 3,Highly recommended,4
+177,18,ASUS Laptop 3,Works perfectly,5
+178,18,ASUS Laptop 3,Worth the money,5
+179,18,ASUS Laptop 3,Poor battery,1
+180,18,ASUS Laptop 3,Excellent product,5
+181,19,ASUS Laptop 4,Stopped working soon,1
+182,19,ASUS Laptop 4,Not worth the price,2
+183,19,ASUS Laptop 4,Highly recommended,5
+184,19,ASUS Laptop 4,Works perfectly,5
+185,19,ASUS Laptop 4,Highly recommended,4
+186,19,ASUS Laptop 4,Worth the money,5
+187,19,ASUS Laptop 4,Worth the money,4
+188,19,ASUS Laptop 4,Highly recommended,4
+189,19,ASUS Laptop 4,Worth the money,5
+190,19,ASUS Laptop 4,Worth the money,5
+191,20,ASUS Laptop 5,Works perfectly,5
+192,20,ASUS Laptop 5,Average quality,3
+193,20,ASUS Laptop 5,Not worth the price,1
+194,20,ASUS Laptop 5,Average quality,1
+195,20,ASUS Laptop 5,Excellent product,4
+196,20,ASUS Laptop 5,Works perfectly,5
+197,20,ASUS Laptop 5,Highly recommended,5
+198,20,ASUS Laptop 5,Disappointing purchase,2
+199,20,ASUS Laptop 5,Highly recommended,5
+200,20,ASUS Laptop 5,Not worth the price,1
+201,21,Acer Laptop 1,Stopped working soon,1
+202,21,Acer Laptop 1,Average quality,1
+203,21,Acer Laptop 1,Very good quality,4
+204,21,Acer Laptop 1,Highly recommended,5
+205,21,Acer Laptop 1,Works perfectly,5
+206,21,Acer Laptop 1,Stopped working soon,2
+207,21,Acer Laptop 1,Stopped working soon,2
+208,21,Acer Laptop 1,Very good quality,4
+209,21,Acer Laptop 1,Worth the money,4
+210,21,Acer Laptop 1,Worth the money,4
+211,22,Acer Laptop 2,Very good quality,5
+212,22,Acer Laptop 2,Stopped working soon,2
+213,22,Acer Laptop 2,Worth the money,5
+214,22,Acer Laptop 2,Excellent product,4
+215,22,Acer Laptop 2,Very good quality,5
+216,22,Acer Laptop 2,Works perfectly,5
+217,22,Acer Laptop 2,Excellent product,4
+218,22,Acer Laptop 2,Works perfectly,4
+219,22,Acer Laptop 2,Poor battery,3
+220,22,Acer Laptop 2,Poor battery,2
+221,23,Acer Laptop 3,Average quality,3
+222,23,Acer Laptop 3,Very good quality,4
+223,23,Acer Laptop 3,Average quality,3
+224,23,Acer Laptop 3,Highly recommended,5
+225,23,Acer Laptop 3,Works perfectly,4
+226,23,Acer Laptop 3,Works perfectly,4
+227,23,Acer Laptop 3,Works perfectly,4
+228,23,Acer Laptop 3,Excellent product,4
+229,23,Acer Laptop 3,Highly recommended,5
+230,23,Acer Laptop 3,Excellent product,5
+231,24,Acer Laptop 4,Stopped working soon,1
+232,24,Acer Laptop 4,Excellent product,4
+233,24,Acer Laptop 4,Excellent product,4
+234,24,Acer Laptop 4,Excellent product,5
+235,24,Acer Laptop 4,Excellent product,4
+236,24,Acer Laptop 4,Stopped working soon,2
+237,24,Acer Laptop 4,Disappointing purchase,1
+238,24,Acer Laptop 4,Average quality,1
+239,24,Acer Laptop 4,Very good quality,5
+240,24,Acer Laptop 4,Poor battery,3
+241,25,Acer Laptop 5,Works perfectly,5
+242,25,Acer Laptop 5,Works perfectly,4
+243,25,Acer Laptop 5,Worth the money,4
+244,25,Acer Laptop 5,Poor battery,2
+245,25,Acer Laptop 5,Highly recommended,4
+246,25,Acer Laptop 5,Disappointing purchase,1
+247,25,Acer Laptop 5,Worth the money,5
+248,25,Acer Laptop 5,Very good quality,4
+249,25,Acer Laptop 5,Stopped working soon,2
+250,25,Acer Laptop 5,Worth the money,4
+251,26,Samsung Mobile 1,Excellent product,5
+252,26,Samsung Mobile 1,Highly recommended,4
+253,26,Samsung Mobile 1,Works perfectly,4
+254,26,Samsung Mobile 1,Excellent product,5
+255,26,Samsung Mobile 1,Disappointing purchase,1
+256,26,Samsung Mobile 1,Poor battery,1
+257,26,Samsung Mobile 1,Works perfectly,4
+258,26,Samsung Mobile 1,Average quality,3
+259,26,Samsung Mobile 1,Excellent product,5
+260,26,Samsung Mobile 1,Very good quality,4
+261,27,Samsung Mobile 2,Stopped working soon,2
+262,27,Samsung Mobile 2,Works perfectly,5
+263,27,Samsung Mobile 2,Very good quality,4
+264,27,Samsung Mobile 2,Highly recommended,4
+265,27,Samsung Mobile 2,Works perfectly,5
+266,27,Samsung Mobile 2,Excellent product,5
+267,27,Samsung Mobile 2,Not worth the price,3
+268,27,Samsung Mobile 2,Not worth the price,3
+269,27,Samsung Mobile 2,Highly recommended,4
+270,27,Samsung Mobile 2,Disappointing purchase,3
+271,28,Samsung Mobile 3,Highly recommended,4
+272,28,Samsung Mobile 3,Excellent product,5
+273,28,Samsung Mobile 3,Works perfectly,5
+274,28,Samsung Mobile 3,Very good quality,4
+275,28,Samsung Mobile 3,Excellent product,5
+276,28,Samsung Mobile 3,Poor battery,1
+277,28,Samsung Mobile 3,Works perfectly,4
+278,28,Samsung Mobile 3,Not worth the price,1
+279,28,Samsung Mobile 3,Very good quality,4
+280,28,Samsung Mobile 3,Highly recommended,4
+281,29,Samsung Mobile 4,Worth the money,5
+282,29,Samsung Mobile 4,Poor battery,2
+283,29,Samsung Mobile 4,Works perfectly,4
+284,29,Samsung Mobile 4,Disappointing purchase,1
+285,29,Samsung Mobile 4,Very good quality,5
+286,29,Samsung Mobile 4,Works perfectly,4
+287,29,Samsung Mobile 4,Works perfectly,5
+288,29,Samsung Mobile 4,Highly recommended,4
+289,29,Samsung Mobile 4,Worth the money,5
+290,29,Samsung Mobile 4,Not worth the price,1
+291,30,Samsung Mobile 5,Poor battery,1
+292,30,Samsung Mobile 5,Poor battery,2
+293,30,Samsung Mobile 5,Disappointing purchase,1
+294,30,Samsung Mobile 5,Highly recommended,4
+295,30,Samsung Mobile 5,Highly recommended,5
+296,30,Samsung Mobile 5,Excellent product,4
+297,30,Samsung Mobile 5,Very good quality,4
+298,30,Samsung Mobile 5,Disappointing purchase,1
+299,30,Samsung Mobile 5,Poor battery,2
+300,30,Samsung Mobile 5,Works perfectly,5
+301,31,Apple Mobile 1,Highly recommended,4
+302,31,Apple Mobile 1,Poor battery,1
+303,31,Apple Mobile 1,Very good quality,4
+304,31,Apple Mobile 1,Highly recommended,4
+305,31,Apple Mobile 1,Highly recommended,4
+306,31,Apple Mobile 1,Very good quality,4
+307,31,Apple Mobile 1,Highly recommended,4
+308,31,Apple Mobile 1,Works perfectly,4
+309,31,Apple Mobile 1,Highly recommended,4
+310,31,Apple Mobile 1,Excellent product,4
+311,32,Apple Mobile 2,Poor battery,2
+312,32,Apple Mobile 2,Highly recommended,4
+313,32,Apple Mobile 2,Highly recommended,4
+314,32,Apple Mobile 2,Very good quality,4
+315,32,Apple Mobile 2,Works perfectly,4
+316,32,Apple Mobile 2,Excellent product,5
+317,32,Apple Mobile 2,Very good quality,5
+318,32,Apple Mobile 2,Highly recommended,5
+319,32,Apple Mobile 2,Works perfectly,4
+320,32,Apple Mobile 2,Worth the money,5
+321,33,Apple Mobile 3,Excellent product,4
+322,33,Apple Mobile 3,Not worth the price,3
+323,33,Apple Mobile 3,Works perfectly,5
+324,33,Apple Mobile 3,Not worth the price,2
+325,33,Apple Mobile 3,Highly recommended,5
+326,33,Apple Mobile 3,Not worth the price,3
+327,33,Apple Mobile 3,Worth the money,4
+328,33,Apple Mobile 3,Worth the money,4
+329,33,Apple Mobile 3,Highly recommended,4
+330,33,Apple Mobile 3,Highly recommended,5
+331,34,Apple Mobile 4,Works perfectly,4
+332,34,Apple Mobile 4,Worth the money,4
+333,34,Apple Mobile 4,Excellent product,5
+334,34,Apple Mobile 4,Excellent product,4
+335,34,Apple Mobile 4,Worth the money,4
+336,34,Apple Mobile 4,Excellent product,5
+337,34,Apple Mobile 4,Highly recommended,4
+338,34,Apple Mobile 4,Highly recommended,4
+339,34,Apple Mobile 4,Average quality,3
+340,34,Apple Mobile 4,Excellent product,5
+341,35,Apple Mobile 5,Works perfectly,4
+342,35,Apple Mobile 5,Poor battery,1
+343,35,Apple Mobile 5,Very good quality,4
+344,35,Apple Mobile 5,Highly recommended,4
+345,35,Apple Mobile 5,Very good quality,5
+346,35,Apple Mobile 5,Worth the money,4
+347,35,Apple Mobile 5,Highly recommended,5
+348,35,Apple Mobile 5,Average quality,2
+349,35,Apple Mobile 5,Not worth the price,3
+350,35,Apple Mobile 5,Stopped working soon,2
+351,36,OnePlus Mobile 1,Excellent product,5
+352,36,OnePlus Mobile 1,Works perfectly,5
+353,36,OnePlus Mobile 1,Highly recommended,4
+354,36,OnePlus Mobile 1,Works perfectly,5
+355,36,OnePlus Mobile 1,Excellent product,4
+356,36,OnePlus Mobile 1,Works perfectly,4
+357,36,OnePlus Mobile 1,Disappointing purchase,1
+358,36,OnePlus Mobile 1,Works perfectly,5
+359,36,OnePlus Mobile 1,Disappointing purchase,3
+360,36,OnePlus Mobile 1,Very good quality,5
+361,37,OnePlus Mobile 2,Stopped working soon,3
+362,37,OnePlus Mobile 2,Excellent product,4
+363,37,OnePlus Mobile 2,Works perfectly,4
+364,37,OnePlus Mobile 2,Worth the money,5
+365,37,OnePlus Mobile 2,Very good quality,5
+366,37,OnePlus Mobile 2,Works perfectly,5
+367,37,OnePlus Mobile 2,Works perfectly,4
+368,37,OnePlus Mobile 2,Works perfectly,4
+369,37,OnePlus Mobile 2,Disappointing purchase,2
+370,37,OnePlus Mobile 2,Highly recommended,4
+371,38,OnePlus Mobile 3,Worth the money,4
+372,38,OnePlus Mobile 3,Very good quality,5
+373,38,OnePlus Mobile 3,Works perfectly,4
+374,38,OnePlus Mobile 3,Works perfectly,5
+375,38,OnePlus Mobile 3,Stopped working soon,3
+376,38,OnePlus Mobile 3,Stopped working soon,2
+377,38,OnePlus Mobile 3,Average quality,2
+378,38,OnePlus Mobile 3,Very good quality,5
+379,38,OnePlus Mobile 3,Very good quality,4
+380,38,OnePlus Mobile 3,Poor battery,3
+381,39,OnePlus Mobile 4,Not worth the price,1
+382,39,OnePlus Mobile 4,Disappointing purchase,1
+383,39,OnePlus Mobile 4,Excellent product,4
+384,39,OnePlus Mobile 4,Works perfectly,4
+385,39,OnePlus Mobile 4,Highly recommended,5
+386,39,OnePlus Mobile 4,Highly recommended,5
+387,39,OnePlus Mobile 4,Highly recommended,4
+388,39,OnePlus Mobile 4,Works perfectly,4
+389,39,OnePlus Mobile 4,Works perfectly,5
+390,39,OnePlus Mobile 4,Average quality,3
+391,40,OnePlus Mobile 5,Highly recommended,4
+392,40,OnePlus Mobile 5,Stopped working soon,2
+393,40,OnePlus Mobile 5,Worth the money,5
+394,40,OnePlus Mobile 5,Not worth the price,3
+395,40,OnePlus Mobile 5,Disappointing purchase,1
+396,40,OnePlus Mobile 5,Disappointing purchase,3
+397,40,OnePlus Mobile 5,Very good quality,4
+398,40,OnePlus Mobile 5,Worth the money,4
+399,40,OnePlus Mobile 5,Average quality,1
+400,40,OnePlus Mobile 5,Excellent product,5
+401,41,Xiaomi Mobile 1,Worth the money,4
+402,41,Xiaomi Mobile 1,Very good quality,4
+403,41,Xiaomi Mobile 1,Poor battery,1
+404,41,Xiaomi Mobile 1,Stopped working soon,3
+405,41,Xiaomi Mobile 1,Excellent product,5
+406,41,Xiaomi Mobile 1,Poor battery,1
+407,41,Xiaomi Mobile 1,Very good quality,5
+408,41,Xiaomi Mobile 1,Works perfectly,5
+409,41,Xiaomi Mobile 1,Excellent product,5
+410,41,Xiaomi Mobile 1,Poor battery,2
+411,42,Xiaomi Mobile 2,Worth the money,5
+412,42,Xiaomi Mobile 2,Excellent product,4
+413,42,Xiaomi Mobile 2,Works perfectly,4
+414,42,Xiaomi Mobile 2,Disappointing purchase,2
+415,42,Xiaomi Mobile 2,Worth the money,4
+416,42,Xiaomi Mobile 2,Very good quality,4
+417,42,Xiaomi Mobile 2,Very good quality,5
+418,42,Xiaomi Mobile 2,Not worth the price,2
+419,42,Xiaomi Mobile 2,Poor battery,2
+420,42,Xiaomi Mobile 2,Average quality,3
+421,43,Xiaomi Mobile 3,Poor battery,3
+422,43,Xiaomi Mobile 3,Excellent product,5
+423,43,Xiaomi Mobile 3,Stopped working soon,3
+424,43,Xiaomi Mobile 3,Excellent product,4
+425,43,Xiaomi Mobile 3,Excellent product,5
+426,43,Xiaomi Mobile 3,Works perfectly,5
+427,43,Xiaomi Mobile 3,Excellent product,4
+428,43,Xiaomi Mobile 3,Poor battery,3
+429,43,Xiaomi Mobile 3,Very good quality,4
+430,43,Xiaomi Mobile 3,Not worth the price,1
+431,44,Xiaomi Mobile 4,Highly recommended,4
+432,44,Xiaomi Mobile 4,Worth the money,5
+433,44,Xiaomi Mobile 4,Works perfectly,4
+434,44,Xiaomi Mobile 4,Highly recommended,5
+435,44,Xiaomi Mobile 4,Stopped working soon,2
+436,44,Xiaomi Mobile 4,Poor battery,1
+437,44,Xiaomi Mobile 4,Stopped working soon,3
+438,44,Xiaomi Mobile 4,Excellent product,4
+439,44,Xiaomi Mobile 4,Worth the money,4
+440,44,Xiaomi Mobile 4,Worth the money,5
+441,45,Xiaomi Mobile 5,Worth the money,4
+442,45,Xiaomi Mobile 5,Excellent product,5
+443,45,Xiaomi Mobile 5,Works perfectly,5
+444,45,Xiaomi Mobile 5,Works perfectly,5
+445,45,Xiaomi Mobile 5,Worth the money,4
+446,45,Xiaomi Mobile 5,Highly recommended,4
+447,45,Xiaomi Mobile 5,Worth the money,4
+448,45,Xiaomi Mobile 5,Disappointing purchase,1
+449,45,Xiaomi Mobile 5,Highly recommended,4
+450,45,Xiaomi Mobile 5,Works perfectly,5
+451,46,Realme Mobile 1,Highly recommended,5
+452,46,Realme Mobile 1,Works perfectly,4
+453,46,Realme Mobile 1,Very good quality,5
+454,46,Realme Mobile 1,Highly recommended,5
+455,46,Realme Mobile 1,Not worth the price,3
+456,46,Realme Mobile 1,Very good quality,5
+457,46,Realme Mobile 1,Excellent product,5
+458,46,Realme Mobile 1,Worth the money,4
+459,46,Realme Mobile 1,Very good quality,4
+460,46,Realme Mobile 1,Worth the money,4
+461,47,Realme Mobile 2,Excellent product,4
+462,47,Realme Mobile 2,Disappointing purchase,2
+463,47,Realme Mobile 2,Highly recommended,5
+464,47,Realme Mobile 2,Excellent product,4
+465,47,Realme Mobile 2,Works perfectly,4
+466,47,Realme Mobile 2,Worth the money,5
+467,47,Realme Mobile 2,Excellent product,5
+468,47,Realme Mobile 2,Highly recommended,5
+469,47,Realme Mobile 2,Average quality,1
+470,47,Realme Mobile 2,Stopped working soon,2
+471,48,Realme Mobile 3,Average quality,1
+472,48,Realme Mobile 3,Highly recommended,4
+473,48,Realme Mobile 3,Worth the money,4
+474,48,Realme Mobile 3,Stopped working soon,2
+475,48,Realme Mobile 3,Highly recommended,5
+476,48,Realme Mobile 3,Worth the money,4
+477,48,Realme Mobile 3,Excellent product,4
+478,48,Realme Mobile 3,Excellent product,5
+479,48,Realme Mobile 3,Stopped working soon,3
+480,48,Realme Mobile 3,Works perfectly,5
+481,49,Realme Mobile 4,Poor battery,3
+482,49,Realme Mobile 4,Highly recommended,4
+483,49,Realme Mobile 4,Worth the money,4
+484,49,Realme Mobile 4,Works perfectly,4
+485,49,Realme Mobile 4,Stopped working soon,2
+486,49,Realme Mobile 4,Highly recommended,4
+487,49,Realme Mobile 4,Not worth the price,1
+488,49,Realme Mobile 4,Very good quality,5
+489,49,Realme Mobile 4,Works perfectly,5
+490,49,Realme Mobile 4,Excellent product,5
+491,50,Realme Mobile 5,Very good quality,4
+492,50,Realme Mobile 5,Very good quality,4
+493,50,Realme Mobile 5,Worth the money,5
+494,50,Realme Mobile 5,Stopped working soon,3
+495,50,Realme Mobile 5,Works perfectly,5
+496,50,Realme Mobile 5,Excellent product,5
+497,50,Realme Mobile 5,Disappointing purchase,1
+498,50,Realme Mobile 5,Worth the money,5
+499,50,Realme Mobile 5,Very good quality,4
+500,50,Realme Mobile 5,Poor battery,1
+501,51,Sony Headphones 1,Highly recommended,5
+502,51,Sony Headphones 1,Worth the money,5
+503,51,Sony Headphones 1,Excellent product,4
+504,51,Sony Headphones 1,Highly recommended,5
+505,51,Sony Headphones 1,Highly recommended,4
+506,51,Sony Headphones 1,Works perfectly,5
+507,51,Sony Headphones 1,Worth the money,4
+508,51,Sony Headphones 1,Not worth the price,2
+509,51,Sony Headphones 1,Works perfectly,5
+510,51,Sony Headphones 1,Average quality,1
+511,52,Sony Headphones 2,Excellent product,4
+512,52,Sony Headphones 2,Excellent product,4
+513,52,Sony Headphones 2,Works perfectly,5
+514,52,Sony Headphones 2,Worth the money,4
+515,52,Sony Headphones 2,Very good quality,4
+516,52,Sony Headphones 2,Works perfectly,4
+517,52,Sony Headphones 2,Highly recommended,5
+518,52,Sony Headphones 2,Highly recommended,4
+519,52,Sony Headphones 2,Highly recommended,4
+520,52,Sony Headphones 2,Average quality,1
+521,53,Sony Headphones 3,Worth the money,5
+522,53,Sony Headphones 3,Worth the money,5
+523,53,Sony Headphones 3,Highly recommended,5
+524,53,Sony Headphones 3,Stopped working soon,2
+525,53,Sony Headphones 3,Poor battery,3
+526,53,Sony Headphones 3,Not worth the price,2
+527,53,Sony Headphones 3,Not worth the price,3
+528,53,Sony Headphones 3,Excellent product,5
+529,53,Sony Headphones 3,Very good quality,4
+530,53,Sony Headphones 3,Excellent product,4
+531,54,Sony Headphones 4,Poor battery,1
+532,54,Sony Headphones 4,Worth the money,5
+533,54,Sony Headphones 4,Disappointing purchase,1
+534,54,Sony Headphones 4,Very good quality,5
+535,54,Sony Headphones 4,Very good quality,4
+536,54,Sony Headphones 4,Very good quality,4
+537,54,Sony Headphones 4,Poor battery,2
+538,54,Sony Headphones 4,Works perfectly,5
+539,54,Sony Headphones 4,Highly recommended,4
+540,54,Sony Headphones 4,Stopped working soon,2
+541,55,Sony Headphones 5,Disappointing purchase,1
+542,55,Sony Headphones 5,Worth the money,5
+543,55,Sony Headphones 5,Works perfectly,4
+544,55,Sony Headphones 5,Average quality,2
+545,55,Sony Headphones 5,Very good quality,4
+546,55,Sony Headphones 5,Excellent product,4
+547,55,Sony Headphones 5,Worth the money,4
+548,55,Sony Headphones 5,Excellent product,5
+549,55,Sony Headphones 5,Excellent product,4
+550,55,Sony Headphones 5,Excellent product,5
+551,56,Boat Headphones 1,Worth the money,5
+552,56,Boat Headphones 1,Very good quality,5
+553,56,Boat Headphones 1,Disappointing purchase,3
+554,56,Boat Headphones 1,Average quality,2
+555,56,Boat Headphones 1,Poor battery,2
+556,56,Boat Headphones 1,Very good quality,5
+557,56,Boat Headphones 1,Highly recommended,4
+558,56,Boat Headphones 1,Stopped working soon,2
+559,56,Boat Headphones 1,Stopped working soon,1
+560,56,Boat Headphones 1,Excellent product,5
+561,57,Boat Headphones 2,Worth the money,5
+562,57,Boat Headphones 2,Excellent product,4
+563,57,Boat Headphones 2,Very good quality,4
+564,57,Boat Headphones 2,Very good quality,5
+565,57,Boat Headphones 2,Works perfectly,4
+566,57,Boat Headphones 2,Highly recommended,5
+567,57,Boat Headphones 2,Highly recommended,5
+568,57,Boat Headphones 2,Stopped working soon,3
+569,57,Boat Headphones 2,Poor battery,1
+570,57,Boat Headphones 2,Worth the money,4
+571,58,Boat Headphones 3,Very good quality,5
+572,58,Boat Headphones 3,Excellent product,5
+573,58,Boat Headphones 3,Highly recommended,5
+574,58,Boat Headphones 3,Worth the money,5
+575,58,Boat Headphones 3,Excellent product,5
+576,58,Boat Headphones 3,Very good quality,4
+577,58,Boat Headphones 3,Disappointing purchase,3
+578,58,Boat Headphones 3,Worth the money,5
+579,58,Boat Headphones 3,Excellent product,4
+580,58,Boat Headphones 3,Average quality,1
+581,59,Boat Headphones 4,Highly recommended,5
+582,59,Boat Headphones 4,Very good quality,4
+583,59,Boat Headphones 4,Poor battery,1
+584,59,Boat Headphones 4,Not worth the price,2
+585,59,Boat Headphones 4,Worth the money,5
+586,59,Boat Headphones 4,Average quality,1
+587,59,Boat Headphones 4,Poor battery,2
+588,59,Boat Headphones 4,Worth the money,5
+589,59,Boat Headphones 4,Worth the money,5
+590,59,Boat Headphones 4,Works perfectly,5
+591,60,Boat Headphones 5,Worth the money,4
+592,60,Boat Headphones 5,Not worth the price,3
+593,60,Boat Headphones 5,Worth the money,5
+594,60,Boat Headphones 5,Poor battery,1
+595,60,Boat Headphones 5,Not worth the price,3
+596,60,Boat Headphones 5,Works perfectly,5
+597,60,Boat Headphones 5,Works perfectly,5
+598,60,Boat Headphones 5,Excellent product,4
+599,60,Boat Headphones 5,Works perfectly,4
+600,60,Boat Headphones 5,Stopped working soon,2
+601,61,JBL Headphones 1,Highly recommended,4
+602,61,JBL Headphones 1,Highly recommended,4
+603,61,JBL Headphones 1,Worth the money,5
+604,61,JBL Headphones 1,Highly recommended,4
+605,61,JBL Headphones 1,Disappointing purchase,2
+606,61,JBL Headphones 1,Works perfectly,4
+607,61,JBL Headphones 1,Very good quality,5
+608,61,JBL Headphones 1,Very good quality,4
+609,61,JBL Headphones 1,Highly recommended,4
+610,61,JBL Headphones 1,Works perfectly,5
+611,62,JBL Headphones 2,Highly recommended,4
+612,62,JBL Headphones 2,Works perfectly,5
+613,62,JBL Headphones 2,Excellent product,5
+614,62,JBL Headphones 2,Disappointing purchase,3
+615,62,JBL Headphones 2,Excellent product,5
+616,62,JBL Headphones 2,Very good quality,4
+617,62,JBL Headphones 2,Not worth the price,3
+618,62,JBL Headphones 2,Worth the money,5
+619,62,JBL Headphones 2,Worth the money,4
+620,62,JBL Headphones 2,Average quality,2
+621,63,JBL Headphones 3,Highly recommended,4
+622,63,JBL Headphones 3,Highly recommended,5
+623,63,JBL Headphones 3,Poor battery,2
+624,63,JBL Headphones 3,Excellent product,5
+625,63,JBL Headphones 3,Works perfectly,5
+626,63,JBL Headphones 3,Worth the money,5
+627,63,JBL Headphones 3,Average quality,1
+628,63,JBL Headphones 3,Worth the money,5
+629,63,JBL Headphones 3,Stopped working soon,3
+630,63,JBL Headphones 3,Very good quality,4
+631,64,JBL Headphones 4,Stopped working soon,2
+632,64,JBL Headphones 4,Worth the money,5
+633,64,JBL Headphones 4,Very good quality,4
+634,64,JBL Headphones 4,Worth the money,4
+635,64,JBL Headphones 4,Excellent product,4
+636,64,JBL Headphones 4,Works perfectly,5
+637,64,JBL Headphones 4,Excellent product,4
+638,64,JBL Headphones 4,Excellent product,4
+639,64,JBL Headphones 4,Very good quality,5
+640,64,JBL Headphones 4,Highly recommended,4
+641,65,JBL Headphones 5,Excellent product,5
+642,65,JBL Headphones 5,Worth the money,5
+643,65,JBL Headphones 5,Disappointing purchase,3
+644,65,JBL Headphones 5,Very good quality,4
+645,65,JBL Headphones 5,Works perfectly,4
+646,65,JBL Headphones 5,Very good quality,4
+647,65,JBL Headphones 5,Highly recommended,4
+648,65,JBL Headphones 5,Works perfectly,5
+649,65,JBL Headphones 5,Works perfectly,4
+650,65,JBL Headphones 5,Poor battery,1
+651,66,Noise Headphones 1,Disappointing purchase,2
+652,66,Noise Headphones 1,Worth the money,5
+653,66,Noise Headphones 1,Excellent product,4
+654,66,Noise Headphones 1,Stopped working soon,1
+655,66,Noise Headphones 1,Stopped working soon,3
+656,66,Noise Headphones 1,Worth the money,5
+657,66,Noise Headphones 1,Excellent product,5
+658,66,Noise Headphones 1,Very good quality,4
+659,66,Noise Headphones 1,Average quality,2
+660,66,Noise Headphones 1,Works perfectly,5
+661,67,Noise Headphones 2,Not worth the price,1
+662,67,Noise Headphones 2,Very good quality,5
+663,67,Noise Headphones 2,Disappointing purchase,2
+664,67,Noise Headphones 2,Poor battery,2
+665,67,Noise Headphones 2,Stopped working soon,3
+666,67,Noise Headphones 2,Worth the money,4
+667,67,Noise Headphones 2,Highly recommended,4
+668,67,Noise Headphones 2,Poor battery,1
+669,67,Noise Headphones 2,Stopped working soon,2
+670,67,Noise Headphones 2,Works perfectly,5
+671,68,Noise Headphones 3,Disappointing purchase,3
+672,68,Noise Headphones 3,Works perfectly,5
+673,68,Noise Headphones 3,Works perfectly,4
+674,68,Noise Headphones 3,Not worth the price,1
+675,68,Noise Headphones 3,Not worth the price,3
+676,68,Noise Headphones 3,Works perfectly,4
+677,68,Noise Headphones 3,Highly recommended,4
+678,68,Noise Headphones 3,Disappointing purchase,2
+679,68,Noise Headphones 3,Average quality,3
+680,68,Noise Headphones 3,Highly recommended,4
+681,69,Noise Headphones 4,Very good quality,5
+682,69,Noise Headphones 4,Worth the money,4
+683,69,Noise Headphones 4,Excellent product,5
+684,69,Noise Headphones 4,Works perfectly,4
+685,69,Noise Headphones 4,Very good quality,4
+686,69,Noise Headphones 4,Works perfectly,5
+687,69,Noise Headphones 4,Works perfectly,4
+688,69,Noise Headphones 4,Average quality,1
+689,69,Noise Headphones 4,Works perfectly,4
+690,69,Noise Headphones 4,Poor battery,2
+691,70,Noise Headphones 5,Disappointing purchase,3
+692,70,Noise Headphones 5,Worth the money,5
+693,70,Noise Headphones 5,Stopped working soon,2
+694,70,Noise Headphones 5,Highly recommended,5
+695,70,Noise Headphones 5,Works perfectly,4
+696,70,Noise Headphones 5,Worth the money,4
+697,70,Noise Headphones 5,Excellent product,4
+698,70,Noise Headphones 5,Not worth the price,2
+699,70,Noise Headphones 5,Excellent product,4
+700,70,Noise Headphones 5,Average quality,1
+701,71,boAt Headphones 1,Excellent product,4
+702,71,boAt Headphones 1,Not worth the price,3
+703,71,boAt Headphones 1,Works perfectly,5
+704,71,boAt Headphones 1,Poor battery,2
+705,71,boAt Headphones 1,Very good quality,5
+706,71,boAt Headphones 1,Disappointing purchase,2
+707,71,boAt Headphones 1,Disappointing purchase,1
+708,71,boAt Headphones 1,Excellent product,5
+709,71,boAt Headphones 1,Very good quality,5
+710,71,boAt Headphones 1,Excellent product,4
+711,72,boAt Headphones 2,Very good quality,5
+712,72,boAt Headphones 2,Excellent product,5
+713,72,boAt Headphones 2,Highly recommended,5
+714,72,boAt Headphones 2,Average quality,1
+715,72,boAt Headphones 2,Works perfectly,5
+716,72,boAt Headphones 2,Disappointing purchase,3
+717,72,boAt Headphones 2,Works perfectly,5
+718,72,boAt Headphones 2,Stopped working soon,1
+719,72,boAt Headphones 2,Average quality,2
+720,72,boAt Headphones 2,Highly recommended,5
+721,73,boAt Headphones 3,Not worth the price,3
+722,73,boAt Headphones 3,Works perfectly,4
+723,73,boAt Headphones 3,Not worth the price,2
+724,73,boAt Headphones 3,Very good quality,4
+725,73,boAt Headphones 3,Highly recommended,4
+726,73,boAt Headphones 3,Very good quality,5
+727,73,boAt Headphones 3,Highly recommended,5
+728,73,boAt Headphones 3,Average quality,2
+729,73,boAt Headphones 3,Highly recommended,5
+730,73,boAt Headphones 3,Very good quality,4
+731,74,boAt Headphones 4,Excellent product,4
+732,74,boAt Headphones 4,Very good quality,5
+733,74,boAt Headphones 4,Excellent product,5
+734,74,boAt Headphones 4,Works perfectly,5
+735,74,boAt Headphones 4,Very good quality,4
+736,74,boAt Headphones 4,Excellent product,4
+737,74,boAt Headphones 4,Excellent product,5
+738,74,boAt Headphones 4,Worth the money,5
+739,74,boAt Headphones 4,Highly recommended,4
+740,74,boAt Headphones 4,Stopped working soon,1
+741,75,boAt Headphones 5,Poor battery,3
+742,75,boAt Headphones 5,Excellent product,5
+743,75,boAt Headphones 5,Disappointing purchase,1
+744,75,boAt Headphones 5,Highly recommended,4
+745,75,boAt Headphones 5,Very good quality,4
+746,75,boAt Headphones 5,Very good quality,5
+747,75,boAt Headphones 5,Very good quality,4
+748,75,boAt Headphones 5,Poor battery,2
+749,75,boAt Headphones 5,Works perfectly,4
+750,75,boAt Headphones 5,Very good quality,4
+751,76,Samsung Smartwatch 1,Excellent product,5
+752,76,Samsung Smartwatch 1,Very good quality,5
+753,76,Samsung Smartwatch 1,Highly recommended,4
+754,76,Samsung Smartwatch 1,Worth the money,5
+755,76,Samsung Smartwatch 1,Excellent product,4
+756,76,Samsung Smartwatch 1,Very good quality,4
+757,76,Samsung Smartwatch 1,Excellent product,4
+758,76,Samsung Smartwatch 1,Disappointing purchase,1
+759,76,Samsung Smartwatch 1,Poor battery,3
+760,76,Samsung Smartwatch 1,Disappointing purchase,2
+761,77,Samsung Smartwatch 2,Not worth the price,3
+762,77,Samsung Smartwatch 2,Excellent product,4
+763,77,Samsung Smartwatch 2,Excellent product,4
+764,77,Samsung Smartwatch 2,Average quality,1
+765,77,Samsung Smartwatch 2,Stopped working soon,2
+766,77,Samsung Smartwatch 2,Worth the money,5
+767,77,Samsung Smartwatch 2,Works perfectly,5
+768,77,Samsung Smartwatch 2,Highly recommended,4
+769,77,Samsung Smartwatch 2,Disappointing purchase,1
+770,77,Samsung Smartwatch 2,Disappointing purchase,3
+771,78,Samsung Smartwatch 3,Very good quality,4
+772,78,Samsung Smartwatch 3,Excellent product,5
+773,78,Samsung Smartwatch 3,Excellent product,5
+774,78,Samsung Smartwatch 3,Worth the money,5
+775,78,Samsung Smartwatch 3,Average quality,1
+776,78,Samsung Smartwatch 3,Excellent product,4
+777,78,Samsung Smartwatch 3,Excellent product,4
+778,78,Samsung Smartwatch 3,Average quality,1
+779,78,Samsung Smartwatch 3,Not worth the price,3
+780,78,Samsung Smartwatch 3,Average quality,3
+781,79,Samsung Smartwatch 4,Stopped working soon,3
+782,79,Samsung Smartwatch 4,Very good quality,5
+783,79,Samsung Smartwatch 4,Highly recommended,5
+784,79,Samsung Smartwatch 4,Worth the money,4
+785,79,Samsung Smartwatch 4,Very good quality,5
+786,79,Samsung Smartwatch 4,Not worth the price,3
+787,79,Samsung Smartwatch 4,Average quality,1
+788,79,Samsung Smartwatch 4,Very good quality,4
+789,79,Samsung Smartwatch 4,Very good quality,4
+790,79,Samsung Smartwatch 4,Works perfectly,5
+791,80,Samsung Smartwatch 5,Very good quality,5
+792,80,Samsung Smartwatch 5,Works perfectly,4
+793,80,Samsung Smartwatch 5,Poor battery,1
+794,80,Samsung Smartwatch 5,Highly recommended,5
+795,80,Samsung Smartwatch 5,Not worth the price,3
+796,80,Samsung Smartwatch 5,Excellent product,5
+797,80,Samsung Smartwatch 5,Excellent product,5
+798,80,Samsung Smartwatch 5,Poor battery,3
+799,80,Samsung Smartwatch 5,Poor battery,2
+800,80,Samsung Smartwatch 5,Excellent product,5
+801,81,Noise Smartwatch 1,Worth the money,4
+802,81,Noise Smartwatch 1,Excellent product,5
+803,81,Noise Smartwatch 1,Highly recommended,5
+804,81,Noise Smartwatch 1,Very good quality,4
+805,81,Noise Smartwatch 1,Excellent product,5
+806,81,Noise Smartwatch 1,Worth the money,5
+807,81,Noise Smartwatch 1,Not worth the price,2
+808,81,Noise Smartwatch 1,Worth the money,4
+809,81,Noise Smartwatch 1,Excellent product,4
+810,81,Noise Smartwatch 1,Poor battery,3
+811,82,Noise Smartwatch 2,Very good quality,4
+812,82,Noise Smartwatch 2,Highly recommended,5
+813,82,Noise Smartwatch 2,Stopped working soon,3
+814,82,Noise Smartwatch 2,Very good quality,4
+815,82,Noise Smartwatch 2,Very good quality,5
+816,82,Noise Smartwatch 2,Worth the money,4
+817,82,Noise Smartwatch 2,Poor battery,2
+818,82,Noise Smartwatch 2,Excellent product,5
+819,82,Noise Smartwatch 2,Very good quality,5
+820,82,Noise Smartwatch 2,Average quality,3
+821,83,Noise Smartwatch 3,Stopped working soon,3
+822,83,Noise Smartwatch 3,Poor battery,1
+823,83,Noise Smartwatch 3,Very good quality,4
+824,83,Noise Smartwatch 3,Very good quality,5
+825,83,Noise Smartwatch 3,Highly recommended,4
+826,83,Noise Smartwatch 3,Worth the money,5
+827,83,Noise Smartwatch 3,Stopped working soon,3
+828,83,Noise Smartwatch 3,Worth the money,4
+829,83,Noise Smartwatch 3,Works perfectly,4
+830,83,Noise Smartwatch 3,Stopped working soon,1
+831,84,Noise Smartwatch 4,Excellent product,4
+832,84,Noise Smartwatch 4,Disappointing purchase,2
+833,84,Noise Smartwatch 4,Worth the money,4
+834,84,Noise Smartwatch 4,Very good quality,4
+835,84,Noise Smartwatch 4,Excellent product,4
+836,84,Noise Smartwatch 4,Average quality,3
+837,84,Noise Smartwatch 4,Very good quality,5
+838,84,Noise Smartwatch 4,Excellent product,5
+839,84,Noise Smartwatch 4,Stopped working soon,1
+840,84,Noise Smartwatch 4,Highly recommended,5
+841,85,Noise Smartwatch 5,Works perfectly,5
+842,85,Noise Smartwatch 5,Excellent product,4
+843,85,Noise Smartwatch 5,Very good quality,4
+844,85,Noise Smartwatch 5,Very good quality,5
+845,85,Noise Smartwatch 5,Poor battery,2
+846,85,Noise Smartwatch 5,Very good quality,5
+847,85,Noise Smartwatch 5,Worth the money,5
+848,85,Noise Smartwatch 5,Very good quality,5
+849,85,Noise Smartwatch 5,Stopped working soon,3
+850,85,Noise Smartwatch 5,Poor battery,1
+851,86,Fire-Boltt Smartwatch 1,Disappointing purchase,3
+852,86,Fire-Boltt Smartwatch 1,Average quality,3
+853,86,Fire-Boltt Smartwatch 1,Highly recommended,4
+854,86,Fire-Boltt Smartwatch 1,Average quality,1
+855,86,Fire-Boltt Smartwatch 1,Highly recommended,5
+856,86,Fire-Boltt Smartwatch 1,Highly recommended,5
+857,86,Fire-Boltt Smartwatch 1,Excellent product,4
+858,86,Fire-Boltt Smartwatch 1,Average quality,2
+859,86,Fire-Boltt Smartwatch 1,Average quality,1
+860,86,Fire-Boltt Smartwatch 1,Excellent product,4
+861,87,Fire-Boltt Smartwatch 2,Very good quality,4
+862,87,Fire-Boltt Smartwatch 2,Highly recommended,5
+863,87,Fire-Boltt Smartwatch 2,Average quality,3
+864,87,Fire-Boltt Smartwatch 2,Disappointing purchase,2
+865,87,Fire-Boltt Smartwatch 2,Worth the money,5
+866,87,Fire-Boltt Smartwatch 2,Not worth the price,1
+867,87,Fire-Boltt Smartwatch 2,Works perfectly,5
+868,87,Fire-Boltt Smartwatch 2,Worth the money,4
+869,87,Fire-Boltt Smartwatch 2,Highly recommended,5
+870,87,Fire-Boltt Smartwatch 2,Very good quality,5
+871,88,Fire-Boltt Smartwatch 3,Works perfectly,4
+872,88,Fire-Boltt Smartwatch 3,Stopped working soon,2
+873,88,Fire-Boltt Smartwatch 3,Very good quality,5
+874,88,Fire-Boltt Smartwatch 3,Worth the money,5
+875,88,Fire-Boltt Smartwatch 3,Very good quality,5
+876,88,Fire-Boltt Smartwatch 3,Average quality,2
+877,88,Fire-Boltt Smartwatch 3,Stopped working soon,2
+878,88,Fire-Boltt Smartwatch 3,Disappointing purchase,3
+879,88,Fire-Boltt Smartwatch 3,Very good quality,5
+880,88,Fire-Boltt Smartwatch 3,Excellent product,5
+881,89,Fire-Boltt Smartwatch 4,Works perfectly,5
+882,89,Fire-Boltt Smartwatch 4,Worth the money,4
+883,89,Fire-Boltt Smartwatch 4,Disappointing purchase,1
+884,89,Fire-Boltt Smartwatch 4,Highly recommended,5
+885,89,Fire-Boltt Smartwatch 4,Worth the money,4
+886,89,Fire-Boltt Smartwatch 4,Works perfectly,5
+887,89,Fire-Boltt Smartwatch 4,Excellent product,4
+888,89,Fire-Boltt Smartwatch 4,Works perfectly,5
+889,89,Fire-Boltt Smartwatch 4,Not worth the price,2
+890,89,Fire-Boltt Smartwatch 4,Poor battery,1
+891,90,Fire-Boltt Smartwatch 5,Works perfectly,5
+892,90,Fire-Boltt Smartwatch 5,Works perfectly,5
+893,90,Fire-Boltt Smartwatch 5,Average quality,2
+894,90,Fire-Boltt Smartwatch 5,Not worth the price,1
+895,90,Fire-Boltt Smartwatch 5,Poor battery,2
+896,90,Fire-Boltt Smartwatch 5,Excellent product,4
+897,90,Fire-Boltt Smartwatch 5,Very good quality,5
+898,90,Fire-Boltt Smartwatch 5,Very good quality,5
+899,90,Fire-Boltt Smartwatch 5,Poor battery,2
+900,90,Fire-Boltt Smartwatch 5,Excellent product,5
+901,91,Apple Smartwatch 1,Very good quality,5
+902,91,Apple Smartwatch 1,Highly recommended,5
+903,91,Apple Smartwatch 1,Worth the money,5
+904,91,Apple Smartwatch 1,Disappointing purchase,1
+905,91,Apple Smartwatch 1,Average quality,2
+906,91,Apple Smartwatch 1,Average quality,3
+907,91,Apple Smartwatch 1,Very good quality,5
+908,91,Apple Smartwatch 1,Not worth the price,2
+909,91,Apple Smartwatch 1,Highly recommended,4
+910,91,Apple Smartwatch 1,Poor battery,2
+911,92,Apple Smartwatch 2,Worth the money,5
+912,92,Apple Smartwatch 2,Works perfectly,4
+913,92,Apple Smartwatch 2,Works perfectly,5
+914,92,Apple Smartwatch 2,Worth the money,5
+915,92,Apple Smartwatch 2,Very good quality,5
+916,92,Apple Smartwatch 2,Average quality,1
+917,92,Apple Smartwatch 2,Worth the money,4
+918,92,Apple Smartwatch 2,Works perfectly,4
+919,92,Apple Smartwatch 2,Worth the money,5
+920,92,Apple Smartwatch 2,Very good quality,4
+921,93,Apple Smartwatch 3,Very good quality,4
+922,93,Apple Smartwatch 3,Worth the money,4
+923,93,Apple Smartwatch 3,Highly recommended,5
+924,93,Apple Smartwatch 3,Highly recommended,5
+925,93,Apple Smartwatch 3,Worth the money,5
+926,93,Apple Smartwatch 3,Works perfectly,5
+927,93,Apple Smartwatch 3,Excellent product,4
+928,93,Apple Smartwatch 3,Worth the money,4
+929,93,Apple Smartwatch 3,Poor battery,3
+930,93,Apple Smartwatch 3,Excellent product,5
+931,94,Apple Smartwatch 4,Worth the money,4
+932,94,Apple Smartwatch 4,Works perfectly,5
+933,94,Apple Smartwatch 4,Stopped working soon,2
+934,94,Apple Smartwatch 4,Worth the money,4
+935,94,Apple Smartwatch 4,Not worth the price,3
+936,94,Apple Smartwatch 4,Poor battery,3
+937,94,Apple Smartwatch 4,Disappointing purchase,1
+938,94,Apple Smartwatch 4,Not worth the price,3
+939,94,Apple Smartwatch 4,Highly recommended,4
+940,94,Apple Smartwatch 4,Worth the money,5
+941,95,Apple Smartwatch 5,Works perfectly,5
+942,95,Apple Smartwatch 5,Not worth the price,2
+943,95,Apple Smartwatch 5,Disappointing purchase,3
+944,95,Apple Smartwatch 5,Works perfectly,5
+945,95,Apple Smartwatch 5,Poor battery,2
+946,95,Apple Smartwatch 5,Worth the money,4
+947,95,Apple Smartwatch 5,Poor battery,3
+948,95,Apple Smartwatch 5,Not worth the price,2
+949,95,Apple Smartwatch 5,Average quality,2
+950,95,Apple Smartwatch 5,Very good quality,5
+951,96,Amazfit Smartwatch 1,Highly recommended,5
+952,96,Amazfit Smartwatch 1,Highly recommended,5
+953,96,Amazfit Smartwatch 1,Excellent product,5
+954,96,Amazfit Smartwatch 1,Worth the money,4
+955,96,Amazfit Smartwatch 1,Stopped working soon,3
+956,96,Amazfit Smartwatch 1,Very good quality,4
+957,96,Amazfit Smartwatch 1,Excellent product,5
+958,96,Amazfit Smartwatch 1,Average quality,1
+959,96,Amazfit Smartwatch 1,Works perfectly,5
+960,96,Amazfit Smartwatch 1,Highly recommended,4
+961,97,Amazfit Smartwatch 2,Excellent product,4
+962,97,Amazfit Smartwatch 2,Worth the money,4
+963,97,Amazfit Smartwatch 2,Not worth the price,2
+964,97,Amazfit Smartwatch 2,Excellent product,5
+965,97,Amazfit Smartwatch 2,Worth the money,4
+966,97,Amazfit Smartwatch 2,Stopped working soon,3
+967,97,Amazfit Smartwatch 2,Excellent product,5
+968,97,Amazfit Smartwatch 2,Works perfectly,4
+969,97,Amazfit Smartwatch 2,Very good quality,5
+970,97,Amazfit Smartwatch 2,Excellent product,4
+971,98,Amazfit Smartwatch 3,Worth the money,4
+972,98,Amazfit Smartwatch 3,Worth the money,5
+973,98,Amazfit Smartwatch 3,Average quality,3
+974,98,Amazfit Smartwatch 3,Highly recommended,5
+975,98,Amazfit Smartwatch 3,Highly recommended,4
+976,98,Amazfit Smartwatch 3,Stopped working soon,1
+977,98,Amazfit Smartwatch 3,Disappointing purchase,3
+978,98,Amazfit Smartwatch 3,Disappointing purchase,2
+979,98,Amazfit Smartwatch 3,Worth the money,4
+980,98,Amazfit Smartwatch 3,Highly recommended,5
+981,99,Amazfit Smartwatch 4,Stopped working soon,1
+982,99,Amazfit Smartwatch 4,Highly recommended,5
+983,99,Amazfit Smartwatch 4,Disappointing purchase,3
+984,99,Amazfit Smartwatch 4,Disappointing purchase,2
+985,99,Amazfit Smartwatch 4,Very good quality,5
+986,99,Amazfit Smartwatch 4,Works perfectly,4
+987,99,Amazfit Smartwatch 4,Highly recommended,5
+988,99,Amazfit Smartwatch 4,Very good quality,4
+989,99,Amazfit Smartwatch 4,Excellent product,4
+990,99,Amazfit Smartwatch 4,Very good quality,5
+991,100,Amazfit Smartwatch 5,Disappointing purchase,1
+992,100,Amazfit Smartwatch 5,Worth the money,5
+993,100,Amazfit Smartwatch 5,Stopped working soon,2
+994,100,Amazfit Smartwatch 5,Works perfectly,4
+995,100,Amazfit Smartwatch 5,Excellent product,4
+996,100,Amazfit Smartwatch 5,Stopped working soon,3
+997,100,Amazfit Smartwatch 5,Worth the money,4
+998,100,Amazfit Smartwatch 5,Very good quality,5
+999,100,Amazfit Smartwatch 5,Highly recommended,4
+1000,100,Amazfit Smartwatch 5,Excellent product,5
