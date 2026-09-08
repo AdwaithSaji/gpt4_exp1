@@ -1,5 +1,7 @@
 import pandas as pd
+
 from transformers import pipeline
+
 import ollama
 
 
@@ -8,28 +10,85 @@ import ollama
 # Q10 + Q11 + WEB APPLICATION
 # ==============================
 
+OLLAMA_MODEL = "qwen2.5"
+
+SENTIMENT_MODEL = "distilbert/distilbert-base-uncased-finetuned-sst-2-english"
+
+# The SST-2 model only emits POSITIVE / NEGATIVE. Reviews such as
+# "Average quality" land near the decision boundary, so anything the
+# model is not confident about is reported as Neutral. Lower this
+# value to make the Neutral bucket smaller.
+NEUTRAL_CONFIDENCE_THRESHOLD = 0.90
+
+# Reviews included in the prompt sent to Ollama
+MAX_REVIEWS_IN_PROMPT = 30
+
+
 # Load reviews dataset
 reviews = pd.read_csv("data/reviews.csv")
 
-# Load pre-trained sentiment model
+# Q10 - Load pre-trained sentiment analysis model
 sentiment_analyzer = pipeline(
     "sentiment-analysis",
-    model="distilbert/distilbert-base-uncased-finetuned-sst-2-english"
+    model=SENTIMENT_MODEL
 )
 
 
 # ==============================
-# ANALYZE PRODUCT REVIEWS
+# PRODUCT NAME RESOLUTION
+# ==============================
+
+def resolve_product_name(product_name):
+    """
+    Map whatever the user typed onto a product that actually has
+    reviews. "Lenovo Laptop" resolves to "Lenovo Laptop 1".
+    Returns None when nothing matches.
+    """
+
+    wanted = str(product_name).strip().lower()
+
+    if not wanted:
+        return None
+
+    names = reviews["ProductName"].astype(str)
+
+    # Exact match
+    exact = names[names.str.lower() == wanted]
+
+    if not exact.empty:
+        return exact.iloc[0]
+
+    # Partial match - the user left off the product number
+    partial = names[names.str.lower().str.contains(wanted, regex=False)]
+
+    if not partial.empty:
+        return sorted(partial.unique())[0]
+
+    return None
+
+
+# ==============================
+# Q10 - ANALYZE REVIEW SENTIMENT
 # ==============================
 
 def analyze_reviews(product_name):
 
+    resolved_name = resolve_product_name(product_name)
+
+    if resolved_name is None:
+        return None
+
     product_reviews = reviews[
-        reviews["ProductName"].str.lower() == product_name.lower()
+        reviews["ProductName"].astype(str) == resolved_name
     ]
 
-    if product_reviews.empty:
+    review_texts = product_reviews["Review"].astype(str).tolist()
+
+    if not review_texts:
         return None
+
+    # Classify the whole batch in one call
+    predictions = sentiment_analyzer(review_texts)
 
     positive = 0
     neutral = 0
@@ -37,48 +96,48 @@ def analyze_reviews(product_name):
 
     detailed_reviews = []
 
-    for review in product_reviews["Review"]:
-
-        result = sentiment_analyzer(review)[0]
+    for text, result in zip(review_texts, predictions):
 
         label = result["label"]
-        score = result["score"]
+        score = float(result["score"])
 
-        if label == "POSITIVE":
-            sentiment = "Positive"
-            positive += 1
-
-        elif label == "NEGATIVE":
-            sentiment = "Negative"
-            negative += 1
-
-        else:
+        if score < NEUTRAL_CONFIDENCE_THRESHOLD:
             sentiment = "Neutral"
             neutral += 1
 
+        elif label == "POSITIVE":
+            sentiment = "Positive"
+            positive += 1
+
+        else:
+            sentiment = "Negative"
+            negative += 1
+
         detailed_reviews.append({
-            "Review": review,
+            "Review": text,
             "Sentiment": sentiment,
-            "Confidence": float(score)
+            "Confidence": score
         })
 
     return {
+        "product_name": resolved_name,
         "positive": positive,
         "neutral": neutral,
         "negative": negative,
+        "total": len(review_texts),
         "details": detailed_reviews
     }
 
 
 # ==============================
-# OLLAMA REVIEW SUMMARY
+# Q11 - OLLAMA REVIEW SUMMARY
 # ==============================
 
 def generate_review_summary(product_name, review_data):
 
     review_text = ""
 
-    for item in review_data["details"][:30]:
+    for item in review_data["details"][:MAX_REVIEWS_IN_PROMPT]:
 
         review_text += f"""
 Review: {item["Review"]}
@@ -111,10 +170,11 @@ Buying Suggestion
 
 Use only the information provided above.
 Do not invent product features or customer opinions.
+If there are no negative reviews, say so instead of inventing weaknesses.
 """
 
     response = ollama.chat(
-        model="qwen2.5",
+        model=OLLAMA_MODEL,
         messages=[
             {
                 "role": "user",
@@ -127,7 +187,7 @@ Do not invent product features or customer opinions.
 
 
 # ==============================
-# WEB APPLICATION FUNCTION
+# CHATBOT / WEB APPLICATION
 # ==============================
 
 def handle_review_question(product_name):
@@ -142,15 +202,17 @@ def handle_review_question(product_name):
         }
 
     summary = generate_review_summary(
-        product_name,
+        review_data["product_name"],
         review_data
     )
 
     return {
         "found": True,
+        "product_name": review_data["product_name"],
         "positive": review_data["positive"],
         "neutral": review_data["neutral"],
         "negative": review_data["negative"],
+        "total": review_data["total"],
         "details": review_data["details"],
         "response": summary
     }

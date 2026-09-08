@@ -1,17 +1,21 @@
-import pandas as pd
-import pickle
 import os
+import pickle
 
-from sklearn.feature_extraction.text import TfidfVectorizer
+import pandas as pd
+
 from sklearn.metrics.pairwise import cosine_similarity
 
 import ollama
+
+from create_embeddings import build_product_vectors
 
 
 # ==============================
 # PRODUCT RECOMMENDATION MODULE
 # Q6 + Q7 + WEB APPLICATION
 # ==============================
+
+OLLAMA_MODEL = "qwen2.5"
 
 # Load products dataset
 products = pd.read_csv("data/products.csv")
@@ -21,50 +25,61 @@ products["Description"] = products["Description"].fillna("")
 
 
 # ==============================
-# LOAD TF-IDF MODEL
+# Q6 - LOAD TF-IDF MODEL
 # ==============================
 
-if (
-    os.path.exists("models/tfidf_vectorizer.pkl")
-    and os.path.exists("models/product_vectors.pkl")
-):
+VECTORIZER_PATH = "models/tfidf_vectorizer.pkl"
+VECTORS_PATH = "models/product_vectors.pkl"
 
-    with open("models/tfidf_vectorizer.pkl", "rb") as file:
-        tfidf = pickle.load(file)
+if not (os.path.exists(VECTORIZER_PATH) and os.path.exists(VECTORS_PATH)):
 
-    with open("models/product_vectors.pkl", "rb") as file:
-        product_vectors = pickle.load(file)
+    # Build them once instead of failing, so the chatbot works
+    # on a fresh clone of the repository.
+    build_product_vectors()
 
-else:
+with open(VECTORIZER_PATH, "rb") as file:
+    tfidf = pickle.load(file)
 
-    tfidf = TfidfVectorizer(stop_words="english")
-
-    product_vectors = tfidf.fit_transform(
-        products["Description"]
-    )
+with open(VECTORS_PATH, "rb") as file:
+    product_vectors = pickle.load(file)
 
 
 # ==============================
-# RETRIEVE TOP PRODUCTS
+# Q7 - RETRIEVE TOP PRODUCTS
 # ==============================
 
 def recommend_products(user_query, top_n=3):
 
-    # Convert user query into TF-IDF vector
+    # Convert user query into a TF-IDF vector
     query_vector = tfidf.transform([user_query])
 
-    # Calculate cosine similarity
+    # Calculate cosine similarity against every product
     similarity_scores = cosine_similarity(
         query_vector,
         product_vectors
     )[0]
 
-    # Get top products
-    top_indices = similarity_scores.argsort()[-top_n:][::-1]
+    ratings = products["Rating"].tolist()
+
+    # Every description in this dataset uses the same template,
+    # so many products inside a category score exactly the same.
+    # Customer rating is used to break those ties, otherwise the
+    # "top 3" would just be whichever rows happen to come last.
+    ranking = sorted(
+        range(len(similarity_scores)),
+        key=lambda index: (
+            -round(float(similarity_scores[index]), 6),
+            -float(ratings[index])
+        )
+    )
 
     results = []
 
-    for index in top_indices:
+    for index in ranking:
+
+        # Skip products that share no term with the query
+        if similarity_scores[index] <= 0:
+            continue
 
         product = products.iloc[index]
 
@@ -79,11 +94,14 @@ def recommend_products(user_query, top_n=3):
             "Similarity": float(similarity_scores[index])
         })
 
+        if len(results) == top_n:
+            break
+
     return results
 
 
 # ==============================
-# OLLAMA RECOMMENDATION
+# Q7 - OLLAMA RECOMMENDATION
 # ==============================
 
 def generate_recommendation(user_query, products_list):
@@ -96,7 +114,7 @@ def generate_recommendation(user_query, products_list):
 Product Name: {product["ProductName"]}
 Category: {product["Category"]}
 Brand: {product["Brand"]}
-Price: ₹{product["Price"]}
+Price: {product["Price"]}
 Rating: {product["Rating"]}
 Description: {product["Description"]}
 Similarity Score: {product["Similarity"]:.2f}
@@ -123,10 +141,11 @@ Give:
 
 Use ONLY the information provided above.
 Do not invent specifications or features.
+Prices are in Indian Rupees.
 """
 
     response = ollama.chat(
-        model="qwen2.5",
+        model=OLLAMA_MODEL,
         messages=[
             {
                 "role": "user",
@@ -139,7 +158,7 @@ Do not invent specifications or features.
 
 
 # ==============================
-# WEB APPLICATION FUNCTION
+# CHATBOT / WEB APPLICATION
 # ==============================
 
 def handle_recommendation(user_query):
@@ -149,6 +168,17 @@ def handle_recommendation(user_query):
         user_query,
         top_n=3
     )
+
+    if not retrieved_products:
+
+        return {
+            "products": [],
+            "response": (
+                "I could not find any matching product. "
+                "Try mentioning a category such as laptop, mobile, "
+                "headphones or smartwatch."
+            )
+        }
 
     # Generate recommendation using Ollama
     response = generate_recommendation(

@@ -79,13 +79,25 @@ function addMessage(message, sender, intent = null) {
 // FORMAT MESSAGE
 // ==============================
 
+function escapeHtml(text) {
+
+    const div = document.createElement("div");
+
+    div.textContent = text;
+
+    return div.innerHTML;
+}
+
+
 function formatMessage(message) {
 
     if (!message) {
         return "";
     }
 
-    return message
+    // Escape first, so that anything typed by the user or returned
+    // by the model is shown as text instead of being parsed as HTML.
+    return escapeHtml(String(message))
         .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
         .replace(/\n/g, "<br>");
 }
